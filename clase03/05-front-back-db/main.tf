@@ -50,21 +50,6 @@ resource "docker_container" "db_docker" {
     external = 3306
   }
 
-#  healthcheck {
-#    test = [
-#      "CMD",
-#      "mysqladmin",
-#      "ping",
-#      "-h",
-#      "127.0.0.1",
-#      "--silent"
-#    ]
-#    interval     = "3s"
-#    retries      = "5"
-#    start_period = "30s"
-#    timeout      = "2s"
-#  }
-
   networks_advanced {
     name    = docker_network.terraform_net.name
     aliases = ["db"]
