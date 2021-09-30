@@ -1,0 +1,3 @@
+# Bienvenido a la clase 06!!
+
+Gracias por leerme...
