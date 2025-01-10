@@ -16,3 +16,7 @@ variable "docker_ports" {
 output "my_out" {
 	value = var.docker_ports[0].protocol
 }
+
+output "my_out1" {
+	value = var.docker_ports[0].external
+}

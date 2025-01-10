@@ -1,9 +1,10 @@
 terraform {
   required_providers {
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "2.14.0"
-    }
+    docker = "kreuzwerker/docker:27"
+#    docker = {
+#      source  = "kreuzwerker/docker"
+#      version = "2.14.0"
+#    }
   }
 }
 

@@ -1,5 +1,5 @@
 variable "fruit" {
-	default = ["apple", "banana"]
+	default = ["apple", "banana", 3]
 	type = set(string)
 }
 

@@ -1,4 +1,4 @@
 resource "local_file" "my-pet" {
-  filename = "pets.txt"
+  filename = "ppets.txt"
   content  = var.file-content["statement1"]
 }
